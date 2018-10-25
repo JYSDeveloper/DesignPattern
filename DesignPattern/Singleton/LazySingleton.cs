@@ -14,6 +14,10 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
+    /// <summary>
+    /// In This Way, It's not Thread Safe Way
+    /// More than one thread maybe create different Instance
+    /// </summary>
     public sealed class LazySingleton
     {
         private LazySingleton() { }
