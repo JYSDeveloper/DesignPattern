@@ -44,6 +44,7 @@
     <Compile Include="EagerSingleton.cs" />
     <Compile Include="LazySingleton.cs" />
     <Compile Include="LazySingletonAsyncSafe.cs" />
+    <Compile Include="LazySingletonSysLazy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
